@@ -1,0 +1,27 @@
+.button-container {
+  background-color: #f9f9f9;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.character-button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  margin: 5px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+
+
+img{
+    width: 100px;
+    height: 100px;
+}
+
