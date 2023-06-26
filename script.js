@@ -19,6 +19,7 @@ function fetchData() {
       characterContainer.classList.add('character-container');
    // Create a button element
       let button = document.createElement('button');
+    
       // Add CSS class 'character-button' to the button
       button.classList.add('character-button');
     //   displays the name inside the button
@@ -64,6 +65,9 @@ function fetchData() {
     newDetailsContainer.appendChild(votesElement);
    // Create a button element for voting
     let voteButton = document.createElement('button');
+    voteButton.style.marginLeft="30px";
+
+
     voteButton.innerText = 'Vote'; 
     voteButton.addEventListener('click', () => {
       character.votes++; // Increment the character's votes count on button click
