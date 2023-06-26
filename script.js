@@ -1,5 +1,5 @@
 function fetchData() {
-    // Make an HTTP  get request to fetch character data,the url is from the resources to access data in the db.json
+    // Make an HTTP  Get request to fetch character data,the url is from the resources to access data in the db.json
     fetch('http://localhost:3000/characters')
     // Convert the first (data)response to JSON format
       .then(response => response.json())  
